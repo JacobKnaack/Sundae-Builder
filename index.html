@@ -5,16 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sundae Builder</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
+  <header id="app-header">
     <h1>Build A Sundae!</h1>
   </header>
-  <main>
-    <ul>
+  <main id="app-main">
+    <ul id="flavor-list" class="list">
       <h2>Ice Cream Flavors</h2>
       <li>
         Rocky Road
@@ -26,7 +27,7 @@
         Strawberry
       </li>
     </ul>
-    <ul>
+    <ul id="topping-list" class="list">
       <h2>Ice Cream Toppings</h2>
       <li>
         Jimmies
@@ -48,10 +49,10 @@
       </li>
     </ul>
   </main>
-  <footer>
+  <footer id="app-footer">
     <p>Created By 201d98</p>
   </footer>
-  <script defer src="app.js"></script>
+  <script src="app.js" defer></script>
 </body>
 
 </html>

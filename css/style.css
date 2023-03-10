@@ -1,0 +1,26 @@
+h1 {
+  color: rgb(128, 0, 109);
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 8px;
+}
+
+#app-header {
+  margin-bottom: 16px;
+  background-color: turquoise;
+}
+
+.list {
+  margin: 8px;
+  list-style: square;
+}
+
+.list li {
+  
+}
+
+#app-footer {
+  width: 100%;
+  background-color: turquoise;
+  padding: 12px;
+}
