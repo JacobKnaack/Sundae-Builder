@@ -1,6 +1,13 @@
 'use strict'; // forces use to use proper keywords
 
-let wantsASundae = prompt('Who you like a sundae?').toLowerCase(); // be careful if you click "cancel"
+let wantsASundae;
+
+// please do this cautiously, because it is error prone.
+try {
+  wantsASundae = prompt('Who you like a sundae?').toLowerCase(); // be careful if you click "cancel"
+} catch (e) {
+  console.log('An error has occurred', e);
+}
 
 let iceCreamFlavors = ['vanilla', 'chocolate', 'strawberry', 'rock road', 'mint'];
 let iceCreamToppings = ['sprinkles', 'peanuts', 'mochi'];
